@@ -44,7 +44,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 設計方針の変更 → `docs/01_仕様と設計.md` + `AGENTS.md` + `src/office-task/README.md`
 - Cursor UI / Hobby 枠仕様の変更 → `docs/教育資料/04_Cursor操作.md` + `01_クイックスタート.md`
 
-`docs/教育資料/` は利用者向け線形学習パス（00 導入 → 01 クイックスタート → 02 環境構築 → 03 ハンズオン → 04 操作リファレンス）。`90_動画台本.md` / `91_デモ収録シナリオ.md` は動画化用の別レイヤー。
+`docs/教育資料/` は利用者向け線形学習パス（00 導入 → 01 クイックスタート → 02 環境構築 → 03 ハンズオン → 04 操作リファレンス）。`90_動画スライド.md` / `91_動画化メモ.md` は動画化用の別レイヤー。
 
 ## 参照ファイル
 
