@@ -218,13 +218,14 @@ Cursor は以下を **Chat / Composer のコンテキストに自動付与** す
 | サインイン後 Cursor 本体に戻らない | ブラウザの「Cursor を開きますか？」を許可。または Cursor を再起動 |
 | SMS 認証コードが届かない | 電話番号と国コードを確認し、数分待って再送。アカウント作成には SMS 認証が必要（§1.1） |
 
-### 8.C リポジトリ取得・Open Folder
+### 8.C 教材のダウンロード・展開・Open Folder
 
 | 症状 | 対処 |
 |---|---|
-| Clone repo で `Authentication failed` | パブリックリポジトリは認証不要。URL が `https://github.com/kurosawa-kuro/cursor-office-automation-starter.git` 形式か確認。プライベート配布なら HTTPS + Personal Access Token |
-| `git: command not found`（PowerShell） | git 未導入。[git-scm.com](https://git-scm.com/) の Git for Windows を入れるか、Cursor の `Clone repo` を使う |
-| Open Folder してもファイルツリーが空 | 親フォルダを開いている。展開後の `cursor-office-automation-starter/` フォルダを直接開く |
+| `Download ZIP` が見つからない | GitHub の教材ページで緑の `Code` ボタンをクリック → メニュー内に `Download ZIP` |
+| zip を開いても中身が見られない／編集できない | zip は**展開（解凍）が必要**。ファイルを右クリック →「すべて展開」してからフォルダを開く |
+| フォルダ名が `cursor-office-automation-starter-main` になっている | **正常**。GitHub の ZIP は末尾に `-main` が付く。この `-main` フォルダを開けば OK |
+| Open Folder してもファイルツリーが空 / README が見えない | フォルダの階層を間違えている。`README.md` が直接見える階層（`cursor-office-automation-starter-main`）を開く |
 | 「このフォルダを信頼しますか？」を `No` にした | `File → Manage Workspace Trust → Trust this folder` で許可し直す |
 
 ### 8.D Chat・動作・Hobby 枠

@@ -29,7 +29,7 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 3 ステップで動く:
 
 1. **Cursor をインストール** — [cursor.com](https://cursor.com/) から Windows 版（`.exe`）をダウンロードして実行し、サインインする（Hobby 枠 = 無料アカウントで OK）
-2. **本リポジトリを Cursor で開く** — Cursor の `File → Open Folder` から `cursor-office-automation-starter/` を開く（または事前に `git clone` してから開く）
+2. **教材を Cursor で開く** — GitHub の `Code → Download ZIP` で落として展開し、`File → Open Folder` から `cursor-office-automation-starter-main/` を開く（git は不要）
 3. **プロンプトを Cursor Chat に貼る** — Chat (Ctrl+L) を開き、[`src/office-task/README.md`](./src/office-task/README.md) から目的のプロンプトをコピペして送信
 
 詳細は段階別ドキュメントを参照:
