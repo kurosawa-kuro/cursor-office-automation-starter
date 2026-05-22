@@ -8,9 +8,9 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 
 非 IT エンジニア（**Windows ユーザー**）が **Cursor の Hobby 枠（無料プラン）だけ** を使って **事務処理を自動化** するための、プロンプトメモ + サンプルデータ + ガイドドキュメント一式。
 
-中身は実コードではなく **「Cursor Chat / Composer に貼り付ける日本語プロンプトメモ + サンプルデータ + Cursor 利用ガイド」** の集合体。実装作業は基本的にユーザーが Cursor の Chat (Ctrl+L) / Composer (Ctrl+I) にプロンプトメモを貼って都度依頼する流れで発生する。
+中身は実コードではなく **「Cursor Chat に貼り付ける日本語プロンプトメモ + サンプルデータ + Cursor 利用ガイド」** の集合体。実装作業は基本的にユーザーが Cursor の Chat (Ctrl+L) にプロンプトメモを貼って都度依頼する流れで発生する。
 
-**対象 OS は Windows 10/11 のみ**。
+主想定読者は **AI・ML・ビッグデータ人材を扱う IT 人材派遣（SES）の営業担当者**（非エンジニア・IDE 初体験を含む）。**対象 OS は Windows 10/11 のみ**。
 
 ---
 
@@ -19,11 +19,13 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 - `README.md` — 入口（最小、機能概要のみ）
 - `AGENTS.md` — 本ファイル
 - `.cursor/rules/repo.mdc` — Cursor 用プロジェクトルール（Chat / Composer のコンテキストに自動付与）
-- `docs/教育資料/00_導入スライド.md` — 導入（なぜ AI 業務効率化か / なぜ Cursor か / 得られるリターン / 学習ロードマップ / 用語）
+- `docs/教育資料/00_導入スライド.md` — 導入（概念図 / なぜ AI 業務効率化か / なぜ Cursor か / 得られるリターン / 学習ロードマップ / 用語）
 - `docs/教育資料/01_クイックスタート.md` — **15 分で Cursor を動かす最短チェックリスト**
 - `docs/教育資料/02_環境構築ガイド.md` — Phase 1：Cursor 導入 + サインインの詳細手順書
-- `docs/教育資料/03_ハンズオン.md` — Phase 2：clone → Open Folder → Chat 投入の詳細版
-- `docs/教育資料/04_Cursor操作.md` — 操作リファレンス（Hobby 枠 + Chat / Composer / Tab / Inline / `@file`）& 統合トラブルシューティング
+- `docs/教育資料/03_ハンズオン.md` — Phase 2：ZIP ダウンロード → Open Folder → Chat 投入の詳細版
+- `docs/教育資料/04_Cursor操作.md` — 操作リファレンス（Hobby 枠 + Chat / Inline / Tab / `@file`）& 統合トラブルシューティング
+- `docs/教育資料/90_動画台本.md` — 動画化用 Marp デッキ（ナレーション付き・別レイヤー）
+- `docs/教育資料/91_デモ収録シナリオ.md` — デモ収録の逐語ショット台本（別レイヤー）
 - `docs/01_仕様と設計.md` 〜 `05_運用.md` — 仕様 / backlog / 実体目録 / 動作確認 / 利用者フロー。権威順位と更新ルールは `docs/README.md` 参照
 - `src/office-task/` — 事務処理タスクのプロンプトメモ + サンプルデータ（`README.md` にプロンプトを保管）
 
@@ -64,8 +66,8 @@ Cursor をはじめとする AI コーディングアシスタントが、本リ
 ## 5. Cursor 利用時のルール
 
 - **Hobby 枠の制約を意識する**: Slow request の月次上限と利用可能モデルの制限がある（具体的な数値は `docs/教育資料/04_Cursor操作.md` 参照）。1 リクエストに長文・多並列を詰め込まず、小さく分割する
-- **Chat (Ctrl+L)** が基本。複数ファイル横断の変更が必要なときだけ **Composer (Ctrl+I)**、ピンポイント編集は **Inline Edit (Ctrl+K)**
-- リポジトリ内のドキュメントを参照させたいときは `@file` / `@folder` / `@docs` を使う
+- **Chat (Ctrl+L) が基本**。ピンポイント編集は **Inline Edit (Ctrl+K)**。**Composer / Background Agent / MCP / スキル等の高度機能は本キットでは使わない**（非エンジニア・IDE 初体験向けの方針。詳細は `docs/教育資料/04_Cursor操作.md §3`）
+- リポジトリ内のファイルを参照させたいときは `@file` / `@folder` を使う（`@docs` / `@web` / `@git` は事務処理では使わない）
 - 本ファイル (`AGENTS.md`) と `.cursor/rules/repo.mdc` は Cursor が自動的にコンテキストに加えるため、ユーザーが明示的に貼る必要はない
 
 ---

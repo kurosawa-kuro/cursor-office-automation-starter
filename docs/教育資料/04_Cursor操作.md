@@ -224,8 +224,8 @@ Cursor は以下を **Chat / Composer のコンテキストに自動付与** す
 |---|---|
 | `Download ZIP` が見つからない | GitHub の教材ページで緑の `Code` ボタンをクリック → メニュー内に `Download ZIP` |
 | zip を開いても中身が見られない／編集できない | zip は**展開（解凍）が必要**。ファイルを右クリック →「すべて展開」してからフォルダを開く |
-| フォルダ名が `cursor-office-automation-starter-main` になっている | **正常**。GitHub の ZIP は末尾に `-main` が付く。この `-main` フォルダを開けば OK |
-| Open Folder してもファイルツリーが空 / README が見えない | フォルダの階層を間違えている。`README.md` が直接見える階層（`cursor-office-automation-starter-main`）を開く |
+| フォルダ名が `cursor-office-automation-starter-master` になっている | **正常**。GitHub の ZIP は末尾に `-master` が付く。この `-master` フォルダを開けば OK |
+| Open Folder してもファイルツリーが空 / README が見えない | フォルダの階層を間違えている。`README.md` が直接見える階層（`cursor-office-automation-starter-master`）を開く |
 | 「このフォルダを信頼しますか？」を `No` にした | `File → Manage Workspace Trust → Trust this folder` で許可し直す |
 
 ### 8.D Chat・動作・Hobby 枠

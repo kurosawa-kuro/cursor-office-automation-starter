@@ -8,7 +8,7 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 
 ## できるようになること
 
-本キットは **IT エンジニア派遣（SES）の営業担当者** を主な想定読者にしています。例:
+本キットは **AI・ML・ビッグデータ人材を扱う IT 人材派遣（SES）の営業担当者**（非エンジニア・IDE 初体験を含む）を主な想定読者にしています。例:
 
 | 業務シーン | 自動化できる例 |
 |---|---|
@@ -29,7 +29,7 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 3 ステップで動く:
 
 1. **Cursor をインストール** — [cursor.com](https://cursor.com/) から Windows 版（`.exe`）をダウンロードして実行し、サインインする（Hobby 枠 = 無料アカウントで OK）
-2. **教材を Cursor で開く** — GitHub の `Code → Download ZIP` で落として展開し、`File → Open Folder` から `cursor-office-automation-starter-main/` を開く（git は不要）
+2. **教材を Cursor で開く** — GitHub の `Code → Download ZIP` で落として展開し、`File → Open Folder` から `cursor-office-automation-starter-master/` を開く（git は不要）
 3. **プロンプトを Cursor Chat に貼る** — Chat (Ctrl+L) を開き、[`src/office-task/README.md`](./src/office-task/README.md) から目的のプロンプトをコピペして送信
 
 詳細は段階別ドキュメントを参照:
@@ -56,7 +56,7 @@ cursor-office-automation-starter/
 │       ├── 00_導入スライド.md       ← 手を動かす前の導入（なぜ Cursor / リターン）
 │       ├── 01_クイックスタート.md   ← 最短 15 分版（最初はこれ）
 │       ├── 02_環境構築ガイド.md    ← Cursor 導入（詳細版）
-│       ├── 03_ハンズオン.md       ← clone → Open Folder → Chat 投入
+│       ├── 03_ハンズオン.md       ← ZIP DL → Open Folder → Chat 投入
 │       └── 04_Cursor操作.md      ← 操作リファレンス & 統合トラブルシューティング
 └── src/
     └── office-task/                                         ← 事務処理タスク（プロンプトメモ + データ）
@@ -73,7 +73,7 @@ cursor-office-automation-starter/
 | [`00_導入スライド.md`](./docs/教育資料/00_導入スライド.md) | **手を動かす前の導入（なぜ AI 業務効率化か / なぜ Cursor か / 得られるリターン）** |
 | [`01_クイックスタート.md`](./docs/教育資料/01_クイックスタート.md) | **15 分で Cursor を動かす最短ルート（最初はこれ）** |
 | [`02_環境構築ガイド.md`](./docs/教育資料/02_環境構築ガイド.md) | Cursor を Windows にインストール + サインインする詳細手順書 |
-| [`03_ハンズオン.md`](./docs/教育資料/03_ハンズオン.md) | clone → Cursor で Open Folder → Chat に投入の詳細版 |
+| [`03_ハンズオン.md`](./docs/教育資料/03_ハンズオン.md) | ZIP ダウンロード → Cursor で Open Folder → Chat に投入の詳細版 |
 | [`04_Cursor操作.md`](./docs/教育資料/04_Cursor操作.md) | 操作リファレンス（Hobby 枠 + Chat / Composer / Tab / Inline / `@file`）& 統合トラブルシューティング |
 | [`docs/01_仕様と設計.md`](./docs/01_仕様と設計.md) | ユーザー像・ゴール・全体構成・設計上の決め事 |
 | [`docs/02_移行ロードマップ.md`](./docs/02_移行ロードマップ.md) | 今後追加したいプロンプト／ドキュメントの backlog |

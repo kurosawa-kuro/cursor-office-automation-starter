@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## このリポジトリの正体
 
-**実コードは無い**。中身は「Cursor Chat / Composer に貼り付ける日本語プロンプトメモ + サンプルデータ + Cursor 利用ガイド」の集合体。非 IT エンジニア（Windows ユーザー）が **Cursor の Hobby 枠（無料プラン）だけ** で事務処理（SES 営業の定型業務）を自動化するためのスターターキット。
+**実コードは無い**。中身は「Cursor Chat に貼り付ける日本語プロンプトメモ + サンプルデータ + Cursor 利用ガイド」の集合体。非 IT エンジニア（Windows ユーザー）— 主に **AI・ML・ビッグデータ人材を扱う IT 人材派遣（SES）の営業担当者** — が **Cursor の Hobby 枠（無料プラン）だけ** で営業事務の定型業務を自動化するためのスターターキット。教材の取得は git ではなく **GitHub の ZIP ダウンロード→展開** で行う（非エンジニア・IDE 初体験前提）。
 
 そのため **build / lint / test コマンドは存在しない**。`package.json` / `pyproject.toml` / `Makefile` も無い。作業はほぼ全て Markdown ドキュメントとサンプルデータの編集。
 
