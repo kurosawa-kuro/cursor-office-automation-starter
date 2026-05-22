@@ -20,6 +20,8 @@ Windows ユーザー（特に非 IT エンジニア）が **Cursor の Hobby 枠
 
 「コードが書けなくても、日本語で Cursor Chat に指示すれば動く」を目指している。
 
+> 🎬 **動画で見る** → [AI で事務処理を効率化する（YouTube）](https://youtu.be/PhvT56ieCZg)
+
 ---
 
 ## はじめかた
